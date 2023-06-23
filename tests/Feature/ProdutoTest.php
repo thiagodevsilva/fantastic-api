@@ -66,7 +66,7 @@ class ProdutoTest extends TestCase
      */
     public function testBuscarProduto()
     {
-        // Cria alguns produtos no banco de dados
+        // Cria produto no banco de dados
         $produto = Produto::factory()->count(1)->create()->first();
 
         // Faz a requisição para o endpoint de busca com parametro

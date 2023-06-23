@@ -10,9 +10,9 @@ use OpenApi\Annotations as OA;
 
 /**
  * @OA\Info(
- *     title="API de Produtos",
+ *     title="API",
  *     version="1.0.0",
- *     description="API para gerenciamento de produtos",
+ *     description="API de acesso a produtos",
  * )
  * @OA\SecurityScheme(
  *     securityScheme="bearerAuth",

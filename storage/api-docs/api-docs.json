@@ -1,18 +1,18 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API de Produtos",
-        "description": "API para gerenciamento de produtos",
+        "title": "API",
+        "description": "API de acesso a produtos",
         "version": "1.0.0"
     },
     "paths": {
         "/api/produtos": {
             "get": {
-                "summary": "Exibe uma listagem dos itens",
+                "summary": "Exibe uma listagem de todos itens da tabela",
                 "operationId": "e84e02cab104b0ebcaaaf0da0f9f90c4",
                 "responses": {
                     "200": {
-                        "description": "Listagem de produtos"
+                        "description": "Tabela produtos"
                     }
                 },
                 "security": [

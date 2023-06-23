@@ -30,6 +30,8 @@ DB_PASSWORD=
 
 -- No terminal acesse o diretório do projeto e execute os seguintes comandos um por vez com atenção aos avisos e alertas.
 
+**Composer download:** https://getcomposer.org/download/
+
 - composer update
 - php artisan key:generate
 - php artisan jwt:secret
